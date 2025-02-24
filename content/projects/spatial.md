@@ -1,5 +1,5 @@
 ---
-date: '2021-1'
+date: '2021-1-1'
 title: 'Monitoring Forage Production and Phenological Cycles of California Rangelands'
 github: 'https://github.com/GraceHLiu/Chapter2_SatelliteRangeland'
 external: 'https://iopscience.iop.org/article/10.1088/1748-9326/abc64d/pdf'
