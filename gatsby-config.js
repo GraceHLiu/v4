@@ -7,7 +7,6 @@ module.exports = {
       'Grace Liu is a data scientist and machine learning engineer who specializes in building scalable AI soluations.',
     siteUrl: 'https://gracehliu.github.io/v4', // Update this line with your custom URL
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    // twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
