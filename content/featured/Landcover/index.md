@@ -1,5 +1,5 @@
 ---
-date: '2018-12'
+date: '2018-12-1'
 title: 'Landcover Classification using Drone Images'
 cover: './landcover_white.png'
 github: 'https://github.com/GraceHLiu/Rustici_sUAS_Classification'

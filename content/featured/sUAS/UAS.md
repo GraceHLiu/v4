@@ -1,5 +1,5 @@
 ---
-date: '2019-3'
+date: '2019-3-1'
 title: 'Mapping with Drone Images'
 cover: './drone.png'
 github: 'https://github.com/GraceHLiu/Chaper1_UAS_Camatta'
