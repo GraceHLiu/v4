@@ -1,5 +1,5 @@
 ---
-date: '2020-09'
+date: '2020-9-1'
 title: 'Senior Data Scientist -- Deep Learning'
 company: 'the Climate Coporation'
 location: 'San Francisco, CA'

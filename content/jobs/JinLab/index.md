@@ -1,5 +1,5 @@
 ---
-date: '2020-09'
+date: '2020-9-1'
 title: 'Graduate Student Researcher'
 company: 'Jin Lab'
 location: 'Davis, CA'

@@ -1,5 +1,5 @@
 ---
-date: '2017-03'
+date: '2017-3-1'
 title: 'Lecturer'
 company: 'University of California, Davis'
 location: 'Davis, CA'
