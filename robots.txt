@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://gracehliu.github.io/sitemap.xml
+Sitemap: https://gracehliu.github.io/sitemap-index.xml
 Host: https://gracehliu.github.io
