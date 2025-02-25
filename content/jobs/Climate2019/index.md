@@ -1,5 +1,5 @@
 ---
-date: '2019-9-2'
+date: '2019-9-1'
 title: 'Ag Data Insights and Discovery Intern'
 company: 'the Climate Coporation'
 location: 'San Francisco, CA'

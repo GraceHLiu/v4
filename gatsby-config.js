@@ -5,10 +5,10 @@ module.exports = {
     title: 'Grace Liu',
     description:
       'Grace Liu is a data scientist and machine learning engineer who specializes in building scalable AI soluations.',
-    siteUrl: 'https://gracehliu.github.io/v4', // Update this line with your custom URL
+    siteUrl: 'https://gracehanliu.netlify.app', // Update this line with your custom URL
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
-  pathPrefix: '/v4', // Replace with your actual repo name
+  // pathPrefix: "/v4", // Replace with your actual repo name
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -152,7 +152,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'G-RTXVPJ8BR2',
+        trackingId: 'UA-45666519-2',
       },
     },
   ],
