@@ -21,7 +21,7 @@
     "clean": "gatsby clean",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "deploy": "gatsby build && gh-pages -b master -d public -m 'GitHub Pages Auto Deploy'"
+    "deploy": "gatsby build && gh-pages -d public -m 'GitHub Pages Auto Deploy'"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -51,6 +51,7 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
+    "gh-pages": "^3.1.0",
     "lodash": "^4.17.19",
     "prismjs": "^1.27.0",
     "prop-types": "^15.7.2",
@@ -58,6 +59,7 @@
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-transition-group": "^4.3.0",
+    "readable-stream": "^3.6.0",
     "scrollreveal": "^4.0.5",
     "styled-components": "^5.3.0"
   },
@@ -76,5 +78,6 @@
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
-  }
+  },
+  "packageManager": "yarn@4.6.0+sha224.acd0786f07ffc6c933940eb65fc1d627131ddf5455bddcc295dc90fd"
 }
