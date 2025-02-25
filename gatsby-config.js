@@ -8,6 +8,7 @@ module.exports = {
     siteUrl: 'https://gracehliu.github.io/v4', // Update this line with your custom URL
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
+  pathPrefix: '/v4', // Replace with your actual repo name
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,

@@ -2,11 +2,12 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Grace Liu <hanliu120@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/GraceHLiu/v4"
   },
+  "homepage": "https://github.com/GraceHLiu/v4",
   "keywords": [
     "gatsby"
   ],
@@ -21,7 +22,7 @@
     "clean": "gatsby clean",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "deploy": "gatsby build && gh-pages -d public -m 'GitHub Pages Auto Deploy'"
+    "deploy": "gatsby build && npx gh-pages -d public -b gh-pages -m 'GitHub Pages Auto Deploy'"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -34,6 +35,7 @@
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.12.0",
+    "cheerio": "^0.22.0",
     "gatsby": "^3.4.1",
     "gatsby-plugin-google-analytics": "^3.4.0",
     "gatsby-plugin-image": "^1.4.0",
@@ -51,7 +53,6 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
-    "gh-pages": "^3.1.0",
     "lodash": "^4.17.19",
     "prismjs": "^1.27.0",
     "prop-types": "^15.7.2",
@@ -75,9 +76,13 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
+    "gh-pages": "^3.2.3",
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
   },
-  "packageManager": "yarn@4.6.0+sha224.acd0786f07ffc6c933940eb65fc1d627131ddf5455bddcc295dc90fd"
+  "resolutions": {
+    "readable-stream": "3.6.2",
+    "cheerio": "0.22.0"
+  }
 }
